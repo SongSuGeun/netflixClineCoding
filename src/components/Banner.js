@@ -62,8 +62,8 @@ export default function Banner() {
       height: 100%;
     }
   `;
-  
-  const Container = styled.div`
+
+    const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,8 +71,8 @@ export default function Banner() {
     width: 100%;
     height: 100vh;
   `;
-  
-  const HomeContainer = styled.div`
+
+    const HomeContainer = styled.div`
     width: 100%;
     height: 100%;
   `;
@@ -107,15 +107,15 @@ export default function Banner() {
         return (
             <Container>
                 <HomeContainer>
-                <Iframe 
-                    width="640" 
-                    height="360" 
-                    src={`https://www.youtube.com/embed/${movie.videos.results[0].key}?controls=0&autoplay=1&loop&`}
-                    title="YouTube video player" 
-                    frameborder="0" 
-                    allow="autoplay; fullscreen" 
-                    allowfullscreen
-                />
+                    <Iframe
+                        width="640"
+                        height="360"
+                        src={`https://www.youtube.com/embed/${movie.videos.results[0].key}?controls=0&autoplay=1&loop&`}
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="autoplay; fullscreen"
+                        allowfullscreen
+                    />
                 </HomeContainer>
             </Container>
         );
