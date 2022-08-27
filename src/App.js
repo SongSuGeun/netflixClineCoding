@@ -8,17 +8,6 @@ import Footer from './components/Footer';
 
 
 function App() {
-
-  // useEffect(() => {
-  //   fetchTopRatedMovie();
-  // }, []);
-  // const fetchTopRatedMovie = async () => {
-  //   const request = await (await axios.get(requests.fetchTopRated));
-  //   console.log("---------------------")
-  //   console.log(request)
-  //   console.log("---------------------")
-  // }
-
   return (
     <div className="App">
       <Nav />
